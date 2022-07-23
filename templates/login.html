@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In - CrypFolio</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <link rel="shortcut icon" href="{{url_for('static', filename='logo.svg')}}" type="image/x-icon">
+</head>
+<body style="overflow-y: hidden; overflow-x:hidden;">
+  <form class="logregform" method="post" autocomplete="off" autocapitalize="on">
+	<p class="errmsg">{{errmsg}}</p>
+	<label for="email" class="logreglabel">
+		<h2 class="logreglabel">Email</h2>
+	</label><br>
+	<input type="email" name="email"autocapitalize="on" placeholder="john@crypfolio.io" id="email" class="logreginput"><br><br><br>
+	<label for="password" class="logreglabel">
+		<h2 class="logreglabel">Password</h2>
+	</label><br>
+	<input type="password" name="password"autocapitalize="on" placeholder="crypfolio.io@1234" id="password" class="logreginput"><br><br><br>
+	<input type="submit" class="logregsubmit">
+  </form>
+  <img src="{{url_for('static', filename='loginimg.png')}}"class='formimg'>
+</body>
+</html>

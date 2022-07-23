@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{{url_for('static', filename='logo.svg')}}" type="image/x-icon">
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <title>Browse Crypto</title>
+</head>
+<body>
+    <a href="/"><img src="{{url_for('static', filename='logo.svg')}}" class="sidelogo"></a>
+    <main>           
+            <div class="trending-dash">
+                <h1>Browse</h1>
+                <div class="trending-tile">
+                    <img src="{{url_for('static', filename='bitcoin.svg')}}" class="trending-crypto">
+                    <p class="btcusd">BTC <img src="{{url_for('static', filename='exchange.svg')}}"> USD</p><br><br>
+                    <p id="btc-info" class="info"></p>
+                    <p id="btc-infotime" class="infotime"></p>
+                    <center><img src="{{url_for('static', filename='graph1.png')}}" class="graph"></center>
+                </div>
+                <div class="trending-tile">
+                    <img src="{{url_for('static', filename='ethereum.svg')}}" class="trending-crypto">
+                    <p class="btcusd">ETH <img src="{{url_for('static', filename='exchange.svg')}}"> USD</p><br><br>
+                    <p id="eth-info" class="info"></p>
+                    <p id="eth-infotime" class="infotime"></p>
+                    <center><img src="{{url_for('static', filename='graph2.png')}}" class="graph"></center>
+                </div>
+                <div class="trending-tile">
+                    <img src="{{url_for('static', filename='tether.png')}}" class="trending-crypto">
+                    <p class="btcusd">₮ <img src="{{url_for('static', filename='exchange.svg')}}"> USD</p><br><br>
+                    <p id="tether-info" class="info"></p>
+                    <p id="tether-infotime" class="infotime"></p>
+                    <center><img src="{{url_for('static', filename='graph2.png')}}" class="graph"></center>
+                </div><br><br>
+                <div class="trending-tile">
+                    <img src="{{url_for('static', filename='usdc.png')}}" class="trending-crypto">
+                    <p class="btcusd">USDC <img src="{{url_for('static', filename='exchange.svg')}}"> USD</p><br><br>
+                    <p id="usdc-info" class="info"></p>
+                    <p id="usdc-infotime" class="infotime"></p>
+                    <center><img src="{{url_for('static', filename='graph2.png')}}" class="graph"></center>
+                </div>
+                <div class="trending-tile">
+                    <img src="{{url_for('static', filename='bnb.png')}}" class="trending-crypto">
+                    <p class="btcusd">BNB <img src="{{url_for('static', filename='exchange.svg')}}"> USD</p><br><br>
+                    <p id="bnb-info" class="info"></p>
+                    <p id="bnb-infotime" class="infotime"></p>
+                    <center><img src="{{url_for('static', filename='graph2.png')}}" class="graph"></center>
+                </div>
+                <div class="trending-tile">
+                    <img src="{{url_for('static', filename='xrp.png')}}" class="trending-crypto">
+                    <p class="btcusd">XRP <img src="{{url_for('static', filename='exchange.svg')}}"> USD</p><br><br>
+                    <p id="xrp-info" class="info"></p>
+                    <p id="xrp-infotime" class="infotime"></p>
+                    <center><img src="{{url_for('static', filename='graph2.png')}}" class="graph"></center>
+                </div><br><br>
+                <div class="trending-tile">
+                    <img src="{{url_for('static', filename='solana.png')}}" class="trending-crypto">
+                    <p class="btcusd">SOL <img src="{{url_for('static', filename='exchange.svg')}}"> USD</p><br><br>
+                    <p id="sol-info" class="info"></p>
+                    <p id="sol-infotime" class="infotime"></p>
+                    <center><img src="{{url_for('static', filename='graph2.png')}}" class="graph"></center>
+                </div>
+                <div class="trending-tile">
+                    <img src="{{url_for('static', filename='dogecoin.png')}}" class="trending-crypto">
+                    <p class="btcusd">DOGE <img src="{{url_for('static', filename='exchange.svg')}}"> USD</p><br><br>
+                    <p id="d-info" class="info"></p>
+                    <p id="d-infotime" class="infotime"></p>
+                    <center><img src="{{url_for('static', filename='graph2.png')}}" class="graph"></center>
+                </div>
+                <div class="trending-tile">
+                    <img src="{{url_for('static', filename='tron.png')}}" class="trending-crypto">
+                    <p class="btcusd">TRX <img src="{{url_for('static', filename='exchange.svg')}}"> USD</p><br><br>
+                    <p id="trx-info" class="info"></p>
+                    <p id="trx-infotime" class="infotime"></p>
+                    <center><img src="{{url_for('static', filename='graph2.png')}}" class="graph"></center>
+                </div><br>
+                
+            </div>
+             
+
+    </main>
+</body> 
+</html>
+<script src="{{url_for('static', filename='main.js')}}">
+    
+</script>

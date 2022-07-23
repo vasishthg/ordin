@@ -1,0 +1,367 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('font/Gilroy-Regular.ttf');
+}
+
+*{
+    scroll-behavior: smooth;
+    outline: none;
+}
+body{
+    background: #0B0C10;
+    background-size: contain;
+    color: white;
+    font-family: 'Gilroy', sans-serif;
+}
+
+main{
+    /* background: rgba(255, 255, 255, 0.12); */
+    float: right;
+    overflow:scroll;
+    overflow-x: hidden;
+    right:1em;
+    width: 80%;
+    padding:1em 1em 1em 1em;
+    position: absolute;
+    top: 7em;
+    border-radius: calc(37px/2);
+    max-height: 75%;
+    scroll-behavior: smooth;
+  }
+
+.cai{
+    font-weight: 700;
+}
+.sidelogo{
+    max-width: 3.5em;
+    margin-top: 2em;
+    margin-left: 1em;
+}
+
+.links{
+    margin-left: 2em;
+    margin-top: 4em;
+    display: block;
+}
+
+.link{
+    display: block;
+    color: white;
+    margin-top: 1.4em;
+    text-decoration: none;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 100em;
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border-radius: 100em;
+    background: rgb(197, 197, 197);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .homeabout{
+    width: 35%;
+    font-size: 1em;
+    line-height: 1.4em;
+  }
+
+  .getstarted{
+    height: 3.2em;
+    width: 8.5em;
+    color: white;
+    font-size: 1.0em;
+    font-weight: 700;
+    background: linear-gradient(95.83deg, #00A09C 0%, #59D2A0 76.87%);
+    border-radius: 1.2em;
+  }
+.whyuse{
+    margin-top: 2em;
+    align-items: center;
+}
+  .whyus{
+    width: 20em;
+    pointer-events: none;
+  }
+  .logreginput{
+    width: 535px;
+    height: 73px;
+    outline: none;
+    color: white;
+    font-family: 'Gilroy', sans-serif;
+    padding-left: 2em;
+    background: #111111;
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
+}
+
+.logregform{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+}
+
+.logreglabel{
+    font-family: 'Gilroy', sans-serif;
+    color: white;
+    font-weight: 300;
+}
+.formimg{
+    float: right;
+    right:0;
+    max-width: 38em;
+    pointer-events: none;
+    user-select: none;
+}
+.logregsubmit{
+    width: 131px;
+    height: 46px;border: 1px solid #FFFFFF;
+    border-radius: 12px;
+    background-color: transparent;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.dashboard-nav{
+  width: 20%;background: #13151C;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: inline-block;
+}
+
+.links-dash{
+  margin-top: 3em;
+  margin-left: 2em;
+}
+
+.logobig-dash{
+  margin-top: 2em;
+  margin-bottom: 2em;
+  max-width: 7em;
+}
+
+.logonav-dash{
+  max-width: 1.5em;
+  vertical-align: middle;
+  margin-right: 1em;
+}
+
+hr{
+  background-color: white;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  margin-top:2em;
+}
+.logonav-dash2{
+  max-width: 2em;
+  margin-bottom: 0.6em;
+  vertical-align: middle;
+}
+
+.wb{
+  line-height: 0em;
+}
+
+.cf-bsgc{
+  color: grey;
+}
+
+.about-dash{
+  background:url('dash-about.png');
+  background-size:cover;
+  border-radius: 1em;
+  width: 60%;
+  display: inline-block;
+  padding-bottom: 1.5em;
+}
+
+.ucc-adm{
+  font-weight: 500;
+  line-height: 1.2em;
+  margin-left: 2em;
+  margin-top: 1em;
+  font-size: 1.3em;
+}
+
+.amp-tgbt{
+  color: grey;
+  margin-left: 2.5em;
+  font-weight: 500;
+}
+
+.rect7{
+  opacity: 100%;
+  position: absolute;
+  max-width: 40em;
+  margin-left: -2em;
+  z-index: -1;
+}
+
+.aboutbtc-dash{
+  display: inline;
+  float: right;
+  max-width: 10em;
+  margin-top: 2em;
+  margin-right: 2em;
+}
+
+.fom{
+  background: rgba(255, 255, 255, 0.22);
+box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.15), inset 4px 4px 20px rgba(0, 0, 0, 0.25);
+border: none;
+outline: none;
+cursor: pointer;
+margin-left: 2.5em;
+border-radius: 0.7em;
+font-family: 'Gilroy';
+color: white;
+padding: 1em 1em 1em 1em;
+}
+
+.balance-dash{
+  background:url('balance.png');
+  background-size:cover;
+  width: 37%;
+  border-radius: 1em;
+  background-repeat: no-repeat;
+  float: right;
+  padding-left: 1em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+}
+
+.dd-w{
+  float: right;
+  margin-top: -4em;
+  margin-right: 2em;
+  
+}
+
+.d-w{
+  background: #10181C;
+  border:none;
+  outline: none;
+  color: white;
+  font-family: 'Gilroy';
+  margin-right: 2em;
+  font-weight:600;
+  border-radius: 0.7em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  cursor: pointer;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+}
+
+.trending-dash{
+  display: inline-block;
+
+}
+
+.trending-tile{
+  width: 20em;
+height: 15em;
+display: inline-block;
+margin-bottom: 1em;
+background: #202833;
+border: 1px solid #FFFFFF;
+/* Inner Shadow */
+margin-right: 2em;
+border-radius:1.3em;
+padding: 1.5em 1em 1.5em 1em;
+box-shadow: inset 4px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.trending-crypto{
+  max-width: 2.4em;
+  margin-left: 0.8em;
+  vertical-align: middle;
+  margin-right: 0.4em;
+}
+
+.btcusd{
+  display: inline;
+}
+
+.info{
+  display: inline-block;
+  margin-left: 1em;
+}
+
+
+.infotime{
+  float: right;
+  display: inline;
+}
+
+.graph{
+  max-width: 17em;
+  float: right;
+}
+
+.morecrypto-dash{
+  display: inline;
+  display: inline-block;
+}
+
+.morecrypto-tile{
+  background: #202833;  width:17em;
+  display: inline-block;
+height: 4em;
+display: block;
+border-radius: 1em;
+padding-top: 0.5em;
+padding-bottom: 0.2em !;
+margin-bottom: 2em;
+}
+
+.morecryptosimg{
+  max-width: 2em;
+  margin-right: 1em;
+  vertical-align: middle;
+  margin-left: 1.4em;
+}
+
+.morecrypto-name{
+  display: inline;
+  vertical-align: middle
+}
+
+.morecrypto{
+  float: right;
+  margin-top: 4em;
+}
+
+.browse-th{
+  padding-bottom:1em;
+  padding-right: 10em;
+  margin-right: 3em;
+}
+
+
+.browse-td{
+  margin-left: 10em;
+  padding: 1em 1em 1em 1em;
+  border-radius: 0.5em;
+  padding-bottom:1em;
+}
+
+.curr-sym{
+  color: grey;
+  font-size: 0.8em;
+}

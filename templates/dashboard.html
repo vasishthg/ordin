@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{{url_for('static', filename='logo.svg')}}" type="image/x-icon">
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <title>{{email}}'s Dashboard</title>
+</head>
+<body>
+    <div class="dashboard-nav">
+       <center><img src="{{url_for('static', filename='logobig.png')}}" class="logobig-dash"></center>
+        <div class="links-dash">
+            <p><a href="" class="link"><img src="{{url_for('static', filename='wallet.svg')}}" class="logonav-dash"> My Wallet</a></p>
+            <p><a href="" class="link"><img src="{{url_for('static', filename='exchange.svg')}}" class="logonav-dash"> Exchange</a></p>
+            <p><a href="" class="link"><img src="{{url_for('static', filename='transactions.svg')}}" class="logonav-dash"> Transactions</a></p>
+            <p><a href="" class="link"><img src="{{url_for('static', filename='messages.svg')}}" class="logonav-dash"> Messages</a></p>
+            <p><a href="" class="link"><img src="{{url_for('static', filename='history.svg')}}" class="logonav-dash"> History</a></p>
+        </div>
+        <hr>
+        <center><p style="font-size:1.2em;"><a href="" class="link"><img src="{{url_for('static', filename='settings.svg')}}" class="logonav-dash2"><br>Settings</a></p></center>
+        <center><p style="bottom: 1em; position: absolute; left: 50%; transform: translateX(-50%);"><a href="/logout" class="link"><img src="{{url_for('static', filename='logout.svg')}}" class="logonav-dash"> Log Out</a></p></center>
+
+    </div>
+    <main style="width:70%; height: 100%;">
+        <h2 style="float: right; font-weight: 400; margin-right: 29%;">Account</h2>
+
+        <h1 class="wb">Welcome Back</h1>
+        
+        <p class="cf-bsgc">Buy, sell and get crypto analysis at CrypFolio</p>
+
+        <div class="about-dash">
+            <img src="{{url_for('static', filename='btc.svg')}}" class="aboutbtc-dash">
+            <img src="{{url_for('static', filename='logo.svg')}}" class="sidelogo">
+            <img src="{{url_for('static', filename='rect7.png')}}" class="rect7">
+            <h4 class="ucc-adm">Updates on crypto currencies,<br>assets delstings and more.</h4>
+            <p class="amp-tgbt">Trade with the grin blockchain technology <br>and make profit</p>
+            <a href=""><button class="fom">Find Out More</button></a>
+        </div>
+        <div class="balance-dash">
+            <h3>Balance</h3>
+            <h4>$69,420.00</h4>
+            <h4>Monthly Profits</h4>
+            <p>$45,548.00</p>
+        </div>
+        <div class="dd-w">
+            <a href=""><button class="d-w"><img src="{{url_for('static', filename='deposite.svg')}}" class="logonav-dash"> Deposit</button></a>
+            <a href=""><button class="d-w" style="margin-right: 0;"><img src="{{url_for('static', filename='withdrae.svg')}}" class="logonav-dash"> Withdraw</button></a>
+        </div>
+        <br>
+        <div class="trending-dash">
+            <h1>Trending</h1>
+            <div class="trending-tile">
+                <img src="{{url_for('static', filename='bitcoin.svg')}}" class="trending-crypto">
+                <p class="btcusd">BTC <img src="{{url_for('static', filename='exchange.svg')}}"> USD</p><br><br>
+                <p id="btc-info" class="info"></p>
+                <p id="btc-infotime" class="infotime"></p>
+                <center><img src="{{url_for('static', filename='graph1.png')}}" class="graph"></center>
+            </div>
+            <div class="trending-tile">
+                <img src="{{url_for('static', filename='ethereum.svg')}}" class="trending-crypto">
+                <p class="btcusd">ETH <img src="{{url_for('static', filename='exchange.svg')}}"> USD</p><br><br>
+                <p id="eth-info" class="info"></p>
+                <p id="eth-infotime" class="infotime"></p>
+                <center><img src="{{url_for('static', filename='graph2.png')}}" class="graph"></center>
+            </div>
+        </div>
+        <div class="morecrypto">
+        <div class="morecrypto-dash">
+            <div class="morecrypto-tile">
+                <img src="{{url_for('static', filename='dogecoin.png')}}" class="morecryptosimg">
+                <p class="morecrypto-name">Dogecoin <p id="d-info" class="info"></p></p>
+            </div>
+            <div class="morecrypto-tile">
+                <img src="{{url_for('static', filename='tron.png')}}" class="morecryptosimg">
+                <p class="morecrypto-name">Tron <p id="trx-info" class="info"></p></p>
+            </div>
+            <div class="morecrypto-tile">
+                <img src="{{url_for('static', filename='solana.png')}}" class="morecryptosimg">
+                <p class="morecrypto-name">Solana <p id="sol-info" class="info"></p></p>
+            </div>
+            
+        </div>
+        </div>
+    </main>
+</body>
+</html>
+<script src="{{url_for('static', filename='main.js')}}">
+    
+</script>

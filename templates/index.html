@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <title>CrypFolio</title>
+    <link rel="shortcut icon" href="{{url_for('static', filename='logo.svg')}}" type="image/x-icon">
+</head>
+<body>
+    <div class="sidebar">
+        <img src="{{url_for('static', filename='logo.svg')}}" class="sidelogo"><br>
+        <div class="links">
+            <a class="link" href="/dashboard">Dashboard</a>
+            <a class="link" href="/browse">Browse Crypto</a>
+            <a class="link" href="/login">Login</a>
+        </div>
+    </div> 
+    <main>
+            <h1 class="cai">The next era of crypto AI</h1>
+            <p class="homeabout">Crypfolio - The all-in-one cryptocurrency management application. AI at its finest</p>
+            <a href="/login" style="cursor: pointer;"><button class="getstarted" style="cursor: pointer;">Get Started</button></a>
+            <center>
+                <div class="whyuse">
+                    <img src="{{url_for('static', filename='whyusbg.png')}}" alt="" class="whyus">
+                    <img src="{{url_for('static', filename='whyusbg2.png')}}" alt="" class="whyus">
+                    <img src="{{url_for('static', filename='whyusbg3.png')}}" alt="" class="whyus">
+                </div>
+            </center>
+    </main>
+</body>
+</html>
