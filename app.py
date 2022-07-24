@@ -46,6 +46,22 @@ def dashboard():
     # User is not loggedin redirect to login page
     return redirect('/login')
 
+@app.route('/wallet')
+def wallet():
+    if 'loggedin' in session:
+        # User is loggedin show them the home page
+        return render_template('wallet.html', email=session['email'])
+    # User is not loggedin redirect to login page
+    return redirect('/login')
+
+@app.route('/exchange')
+def exchange():
+    if 'loggedin' in session:
+        # User is loggedin show them the home page
+        return render_template('browse.html', email=session['email'], page = 'Exchange')
+    # User is not loggedin redirect to login page
+    return redirect('/login')
+
 @app.route('/logout')
 def logout():
     # Remove session data, this will log the user out
@@ -57,7 +73,14 @@ def logout():
 
 @app.route('/browse')
 def browse():
-    return render_template('browse.html')
+    return render_template('browse.html',  page = 'Browse')
+
+@app.route('/transactions')
+def transactions():
+    if 'loggedin' in session:
+        return render_template('tr.html', email=session['email'])
+    else:
+        return redirect('/login')
 
 if __name__ == "__main__":
     app.run(debug=True)

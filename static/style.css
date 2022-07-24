@@ -3,6 +3,10 @@
     src: url('font/Gilroy-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'Gilroybold';
+  src: url('font/Gilroy-Bold.ttf');
+}
 *{
     scroll-behavior: smooth;
     outline: none;
@@ -315,7 +319,6 @@ box-shadow: inset 4px 4px 20px rgba(0, 0, 0, 0.25);
 }
 
 .morecrypto-dash{
-  display: inline;
   display: inline-block;
 }
 
@@ -364,4 +367,90 @@ margin-bottom: 2em;
 .curr-sym{
   color: grey;
   font-size: 0.8em;
+}
+
+.walletimg{
+  max-width: 7em;
+  margin-top: 2em;
+  margin-left: 2em;
+}
+
+.aac{
+  display: inline;
+  margin-left: 4em;
+}
+
+
+.aac2{
+  display: inline;
+  margin-left: 7em;
+}
+
+.shesh{
+  display: inline;
+  float: right;
+  width: calc(37%*3);
+}
+
+.analytics{
+  width: 12em;
+  padding-top: 2em;
+height: 8em;
+margin-left: 1em;
+background: #797E85;
+display: inline-block;
+border-radius: 1em;
+}
+
+.ao{
+  margin-top: -12em;
+}
+
+.way{
+  width: 9.5em;
+  height: 8em;
+  background: #F8D584;
+  margin-right: 2em;
+  border-radius: 1em;
+  display: inline-block;
+}
+
+.tr-n{
+  max-width: 3em;
+  margin-top: 1em;
+}
+
+.tr-nic{
+  color: black;
+  font-family: 'GilroyBold';
+}
+
+.dem{
+    background:#202833;
+    width: 250%;
+    border-radius: 1em;
+    padding-left: 1em;
+    display: block;
+    position: relative;
+    padding-bottom: 0.5em;
+    padding-top:0.5em;
+  
+}
+
+.aple{
+  vertical-align: middle;
+  max-width: 2.9em;
+  margin-right: 2em;
+}
+
+.apleelec{
+  vertical-align: middle;
+  line-height: 1.3em;
+  font-family: 'GilroyBold';
+  display: inline-block;
+}
+
+.lmao{
+  float: right;
+  margin-right: 17em;
 }

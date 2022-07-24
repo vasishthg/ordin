@@ -12,11 +12,9 @@
     <div class="dashboard-nav">
        <center><img src="{{url_for('static', filename='logobig.png')}}" class="logobig-dash"></center>
         <div class="links-dash">
-            <p><a href="" class="link"><img src="{{url_for('static', filename='wallet.svg')}}" class="logonav-dash"> My Wallet</a></p>
-            <p><a href="" class="link"><img src="{{url_for('static', filename='exchange.svg')}}" class="logonav-dash"> Exchange</a></p>
-            <p><a href="" class="link"><img src="{{url_for('static', filename='transactions.svg')}}" class="logonav-dash"> Transactions</a></p>
-            <p><a href="" class="link"><img src="{{url_for('static', filename='messages.svg')}}" class="logonav-dash"> Messages</a></p>
-            <p><a href="" class="link"><img src="{{url_for('static', filename='history.svg')}}" class="logonav-dash"> History</a></p>
+            <p><a href="/wallet" class="link"><img src="{{url_for('static', filename='wallet.svg')}}" class="logonav-dash"> My Wallet</a></p>
+            <p><a href="/exchange" class="link"><img src="{{url_for('static', filename='exchange.svg')}}" class="logonav-dash"> Exchange</a></p>
+            <p><a href="/transactions" class="link"><img src="{{url_for('static', filename='transactions.svg')}}" class="logonav-dash"> Transactions</a></p>
         </div>
         <hr>
         <center><p style="font-size:1.2em;"><a href="" class="link"><img src="{{url_for('static', filename='settings.svg')}}" class="logonav-dash2"><br>Settings</a></p></center>

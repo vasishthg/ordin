@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{{url_for('static', filename='logo.svg')}}" type="image/x-icon">
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <title>{{email}}'s Dashboard</title>
+</head>
+<body>
+    <div class="dashboard-nav">
+       <center><img src="{{url_for('static', filename='logobig.png')}}" class="logobig-dash"></center>
+        <div class="links-dash">
+            <p><a href="/wallet" class="link"><img src="{{url_for('static', filename='wallet.svg')}}" class="logonav-dash"> My Wallet</a></p>
+            <p><a href="/exchange" class="link"><img src="{{url_for('static', filename='exchange.svg')}}" class="logonav-dash"> Exchange</a></p>
+            <p><a href="/transactions" class="link"><img src="{{url_for('static', filename='transactions.svg')}}" class="logonav-dash"> Transactions</a></p>
+        </div>
+        <hr>
+        <center><p style="font-size:1.2em;"><a href="" class="link"><img src="{{url_for('static', filename='settings.svg')}}" class="logonav-dash2"><br>Settings</a></p></center>
+        <center><p style="bottom: 1em; position: absolute; left: 50%; transform: translateX(-50%);"><a href="/logout" class="link"><img src="{{url_for('static', filename='logout.svg')}}" class="logonav-dash"> Log Out</a></p></center>
+
+    </div>
+    <main style="width:70%; height: 100%;">
+        <h2 style="float: right; font-weight: 400; margin-right: 29%;">All expenses</h2>
+
+        <h1 class="wb">Transactions</h1>
+        
+        <p class="cf-bsgc">Transfers</p>
+        <div class="transfers">
+            <div class="way">
+                <center><img src="{{url_for('static', filename='be-ca.svg')}}" class="tr-n">
+                <p class="tr-nic">Between Cards</p>
+                </center>
+            </div>
+            <div class="way" style="background: #D1AEEF;">
+                <center><img src="{{url_for('static', filename='global.svg')}}" class="tr-n">
+                <p class="tr-nic">Global</p>
+                </center>
+            </div>
+            <div class="way" style="background: #FF79A6;">
+                <center><img src="{{url_for('static', filename='e-tr.svg')}}" class="tr-n">
+                <p class="tr-nic">E-Transfer</p>
+                </center>
+            </div>
+            <div class="lmao">
+            <div class="dem">
+                <img src="{{url_for('static', filename='aple.svg')}}" class="aple">
+                <p class="apleelec">Apple<br>Electronic</p>
+            </div><br>
+            <div class="dem">
+                <img src="{{url_for('static', filename='aple.svg')}}" class="aple">
+                <p class="apleelec">Apple<br>Electronic</p>
+            </div><br>
+            <div class="dem">
+                <img src="{{url_for('static', filename='aple.svg')}}" class="aple">
+                <p class="apleelec">Apple<br>Electronic</p>
+            </div><br>
+            <div class="dem">
+                <img src="{{url_for('static', filename='aple.svg')}}" class="aple">
+                <p class="apleelec">Apple<br>Electronic</p>
+            </div><br>
+            <div class="dem">
+                <img src="{{url_for('static', filename='aple.svg')}}" class="aple">
+                <p class="apleelec">Apple<br>Electronic</p>
+            </div><br>
+            <div class="dem">
+                <img src="{{url_for('static', filename='aple.svg')}}" class="aple">
+                <p class="apleelec">Apple<br>Electronic</p>
+            </div><br>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="about-dash" style="width: 50%;">
+                <img src="{{url_for('static', filename='btc.svg')}}" class="aboutbtc-dash">
+                <img src="{{url_for('static', filename='logo.svg')}}" class="sidelogo">
+                <img src="{{url_for('static', filename='rect7.png')}}" class="rect7" style="max-width: 35em;">
+                <h4 class="ucc-adm">Earn</h4>
+                <p class="amp-tgbt">Transactions made easy by crypfolio</p>
+            </div>
+        </div>   
+        
+    </main>
+</body>
+</html>
+<script src="{{url_for('static', filename='main.js')}}">
+    
+</script>

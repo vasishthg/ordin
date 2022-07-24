@@ -1,0 +1,24 @@
+<svg width="172" height="172" viewBox="0 0 172 172" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g filter="url(#filter0_d_120_13)">
+<circle cx="86.0915" cy="86.0915" r="68.9932" fill="white"/>
+<circle cx="86.0915" cy="86.0915" r="68.9932" fill="#FF2B71" fill-opacity="0.2"/>
+<path d="M66.7383 22.253C66.3549 20.9843 67.0719 19.6407 68.3532 19.3017C81.6288 15.7891 95.6712 16.3142 108.675 20.8394C122.436 25.6279 134.327 34.6499 142.645 46.6121C150.963 58.5744 155.28 72.8629 154.978 87.4297C154.677 101.996 149.771 116.094 140.964 127.701C132.158 139.308 119.903 147.83 105.956 152.044C92.0086 156.258 77.0853 155.949 63.3248 151.161C49.5642 146.372 37.6728 137.35 29.3549 125.388C21.4943 114.083 17.2065 100.701 17.0135 86.9702C16.9949 85.6449 18.0957 84.5926 19.4208 84.6201L21.5201 84.6636C22.8452 84.691 23.8923 85.7878 23.916 87.113C24.1359 99.3869 27.9907 111.341 35.0194 121.449C42.5055 132.215 53.2078 140.335 65.5923 144.645C77.9768 148.954 91.4078 149.233 103.96 145.44C116.513 141.647 127.542 133.978 135.468 123.531C143.394 113.084 147.809 100.397 148.081 87.2867C148.352 74.1766 144.467 61.3169 136.981 50.5509C129.494 39.7849 118.792 31.6651 106.408 27.3555C94.7798 23.3091 82.2294 22.8165 70.3499 25.9106C69.0673 26.2447 67.729 25.5318 67.3456 24.263L66.7383 22.253Z" fill="#FF2B71"/>
+<rect x="82.2749" y="43.7115" width="59.9941" height="59.9941" transform="rotate(40 82.2749 43.7115)" fill="url(#pattern0)"/>
+</g>
+<defs>
+<filter id="filter0_d_120_13" x="13.0133" y="17.0068" width="146.071" height="146.078" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_120_13"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_120_13" result="shape"/>
+</filter>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_120_13" transform="scale(0.02)"/>
+</pattern>
+<image id="image0_120_13" width="50" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAABdUlEQVRoge2ZsUoDQRRFTxQNEQTBRrCxsU1pZWdjUBs/wx+wyQfYmc7KTrDSRrCysLCxs7ERQtRIKsFCbAJBi8zEJfs2uybuzgu8A6+ZuTtzT7ULC0ZmDoGj0CUmoQQcA99uToCZoI3GYB4451fCzyVQDtjrTywA18Ql/NwAi8HaZWQJuCNZws89sByoYyorwAPpEn4egdUgTUewBjyRXcJPC1gP0FekCnSIl7zNuNZxZwRlA3gnXu4KqAjrZeBCWP8ANgvuPmAL+BRKnQFzLjO8BzALnAp7X0CtoO4DdoGuUKZB/0XokURwmYaw33VnF8aLUKIu5JJEPHUh85xD30TeIhf3gIOEXJoI7tleJNP+16Yp7AGvQBPYH5HLIoI7o+nO3BmnUCk9MhHD5XO7b+q+RpMwEW2YiDZMRBsmog0T0YaJaMNEtGEi2jARbZiINkxEGyaiDRPRholow0S0kbdI9DdaK+e7cqVG/1daG9gO3GU6+AF1I5xXRnIaFgAAAABJRU5ErkJggg=="/>
+</defs>
+</svg>

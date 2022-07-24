@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{{url_for('static', filename='logo.svg')}}" type="image/x-icon">
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <title>{{email}}'s Dashboard</title>
+</head>
+<body>
+    <div class="dashboard-nav">
+       <center><img src="{{url_for('static', filename='logobig.png')}}" class="logobig-dash"></center>
+        <div class="links-dash">
+            <p><a href="/wallet" class="link"><img src="{{url_for('static', filename='wallet.svg')}}" class="logonav-dash"> My Wallet</a></p>
+            <p><a href="/exchange" class="link"><img src="{{url_for('static', filename='exchange.svg')}}" class="logonav-dash"> Exchange</a></p>
+            <p><a href="/transactions" class="link"><img src="{{url_for('static', filename='transactions.svg')}}" class="logonav-dash"> Transactions</a></p>
+        </div>
+        <hr>
+        <center><p style="font-size:1.2em;"><a href="" class="link"><img src="{{url_for('static', filename='settings.svg')}}" class="logonav-dash2"><br>Settings</a></p></center>
+        <center><p style="bottom: 1em; position: absolute; left: 50%; transform: translateX(-50%);"><a href="/logout" class="link"><img src="{{url_for('static', filename='logout.svg')}}" class="logonav-dash"> Log Out</a></p></center>
+
+    </div>
+    <main style="width:70%; height: 100%;">
+        <h2 style="float: right; font-weight: 400; margin-right: 29%;">Account</h2>
+
+        <h1 class="wb">Wallet</h1>
+        
+        <p class="cf-bsgc">Welcome, {{email}}</p>
+
+        <div class="about-dash" style="background: #202833;">
+            <center><img src="{{url_for('static', filename='eh.svg')}}" class="walletimg" style="margin-left: 0;">
+            <img src="{{url_for('static', filename='ehh.svg')}}" class="walletimg">
+            <img src="{{url_for('static', filename='ehhh.svg')}}" class="walletimg">
+            <br>
+            <p class="aac" style="margin-left: 0;">Add a card</p>
+            <p class="aac">Add a card</p>
+            <p class="aac">Add a card</p><br>
+        </center>
+            <center>    
+        <p class="aac2" style="margin-left: 0;">12/15</p>
+            <p class="aac2">10/15</p>
+            <p class="aac2">7/15</p></center>
+        </div>
+        <div class="balance-dash">
+            <h3>Balance</h3>
+            <h4>$69,420.00</h4>
+            <h4>Monthly Profits</h4>
+            <p>$45,548.00</p>
+        </div>
+        <br>
+        <div class="balance-dash" style="background:url('/static/balance2.png')">
+            <h3>Balance</h3>
+            <h4>$69,420.00</h4>
+            <h4>Monthly Profits</h4>
+            <p>$45,548.00</p>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="balance-dash"style="background:url('/static/balance3.png')">
+            <h3>Balance</h3>
+            <h4>$69,420.00</h4>
+            <h4>Monthly Profits</h4>
+            <p>$45,548.00</p>
+        </div>
+        <div class="ao">
+            <h1>Analytics Overview</h1>
+            <div class="analytics">
+                <center>
+                    <h2>383.2k</h2>
+                    <p>Lorem Ipsum Dolor</p>
+                </center>
+            </div>
+            <div class="analytics" style="background:#BFBFBF;">
+                <center>
+                    <h2>383.2k</h2>
+                    <p>Lorem Ipsum Dolor</p>
+                </center>
+            </div>
+            <div class="analytics">
+                <center>
+                    <h2>383.2k</h2>
+                    <p>Lorem Ipsum Dolor</p>
+                </center>
+            </div>
+        </div>
+        
+    </main>
+</body>
+</html>
+<script src="{{url_for('static', filename='main.js')}}">
+    
+</script>

@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="{{url_for('static', filename='logo.svg')}}" type="image/x-icon">
     <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
-    <title>Browse Crypto</title>
+    <title>{{page}} Crypto</title>
 </head>
 <body>
     <a href="/"><img src="{{url_for('static', filename='logo.svg')}}" class="sidelogo"></a>
     <main>           
             <div class="trending-dash">
-                <h1>Browse</h1>
+                <h1>{{page}}</h1>
                 <div class="trending-tile">
                     <img src="{{url_for('static', filename='bitcoin.svg')}}" class="trending-crypto">
                     <p class="btcusd">BTC <img src="{{url_for('static', filename='exchange.svg')}}"> USD</p><br><br>
